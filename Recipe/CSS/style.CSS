@@ -12,54 +12,64 @@
   font-style: normal;
 }
 
-
 .container{    
 font-family: 'Outfit';    
-width: 650px;
+width: 750px;
 height: 100%px;
 background-color: hsl(0, 0%, 100%) ;
 border-radius: 20px;
 margin: auto;
-
 }
 
 .prep{
     background-color: hsl(330, 100%, 98%, 1.00) ;
-    width: 600px;
+    width: 660px;
     height:220px;
     border-radius: 20px;
     margin: auto;
     display: flex;
     flex-direction: column;
+    margin-left: 45px;
 }
 
 .ingredients{
- margin-left: 20px;
+  margin-left: 25px;
 }
 
- 
+.Instructions{
+    margin-left: 25px; 
+}
+
 ul{
-    padding-top: 30px;
-    margin-top: 10px;
+    padding-top: 17px;    
+}
+
+ol{
+    padding-top: 30px; 
+   
 }
 
 li{
     padding: 7px;
     color: hsl(30, 10%, 34%);
+    padding-right: 50px;
 }
 p{
    text-align: justify;
     padding: 20px;
+    margin-left: 60px;
+    padding-top: 0px;  
+
 }
 
 hr{
-    width: 95%;
+    width: 91%;
 }
 
 h1{
     font-family: 'Young Serif';
-    margin-left: 20px;
- 
+    margin-left: 80px;
+    margin-top: 30px;
 }
 
 h2{
@@ -74,9 +84,10 @@ h3{
 }
 
 img{
-    margin:25px 0 0 50px;
+    margin:25px 0 0 80px;
     border-radius: 20px;
-    width: 550px;
+    width: 600px;
+    height: 350px;
 }
 
 body{   
